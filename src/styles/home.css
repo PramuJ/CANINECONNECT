@@ -22,14 +22,14 @@
     font-size: 90px;
     
     font-weight: 50;
-    color: black;
+    color: hsl(61, 100%, 80%);
   }
   
   .headerContainer p {
     padding: 0;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: lighter;
-    color: black;
+    color: hsl(61, 100%, 80%);
   }
   
   .headerContainer button {

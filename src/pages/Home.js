@@ -12,7 +12,7 @@ export default function Home() {
         
        <h1>CANINECONNECT </h1>
         {/* <Link to='/About'>Go to the about page</Link> */}
-        <p>Connecting Canine Companions: Where Dogs Find Love and Families Find Joy.</p>
+        <p>Connecting Canine Companions <br/> Where Dogs Find Love and Families Find Joy.</p>
         <Link>
           <button>
               Sign in
