@@ -5,7 +5,7 @@ import './About.css'
 export default function About() {
   return (
     <div>
-      <NavBar/>
+      
       <p>
         Insert your content here. Describe your company, team, mission, or any other relevant information.
       </p></div>
