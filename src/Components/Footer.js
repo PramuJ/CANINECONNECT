@@ -11,7 +11,7 @@ function Footer() {
       <div className="socialMedia">
         <InstagramIcon /> <FacebookIcon /> <LinkedInIcon />
       </div>
-      <p> &copy; 2023 CANINECONNECT. All rights reserved.</p>
+      <p> &copy; 2023 CANINECONNECT All rights reserved.</p>
     </div>
   );
 }
