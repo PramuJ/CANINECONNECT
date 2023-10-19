@@ -8,6 +8,7 @@ import About from './pages/About';
 import Vehicles from './pages/Vehicles';
 import Dogs from './pages/Dogs';
 import './App.css';
+import ServiceProviderAccount from './Components/ServiceProviderAccount';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/Vehicles" element={<Vehicles />} />
           <Route path='/Dogs' element={<Dogs/>}/>
+          <Route path='/Register' element = {<ServiceProviderAccount/>}/>
         </Routes>
       <Footer/>  
       </Router>

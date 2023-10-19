@@ -19,14 +19,14 @@ const Navbar = () => {
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
           <img id="logo" src={Logo}/>
-          CANINECONNECT {/* You can insert your logo or site name */}
+          CANINECONNECT { }
         </Link>
 
         <ul className="nav-menu">
 
           <li className="nav-item">
             <Link to="/" className="nav-links">
-              Home
+              Home 
             </Link>
 
           </li>
@@ -37,16 +37,18 @@ const Navbar = () => {
           </li>
 
           <li className="nav-item">
+            <Link to="/Vehicles" className="nav-links">
+              Vehicles
+            </Link>
+          </li>
+
+          <li className="nav-item">
             <Link to="/about" className="nav-links">
               About Us
             </Link>
           </li>
 
-          <li className="nav-item">
-            <Link to="/Vehicles" className="nav-links">
-              Vehicles
-            </Link>
-          </li>
+         
           
           
           

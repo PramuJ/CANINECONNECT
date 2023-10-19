@@ -6,13 +6,14 @@
     padding: 10px 20px; /* Padding around navbar content */
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: justify;
   }
   
   .navbar-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    
+    
   }
   
 #logo{
@@ -26,6 +27,7 @@
     text-decoration: none;
     color: #000000;
     font-size: 1.5rem;
+    align-items: left;
     margin-right: 20px; /* Margin between logo and menu items */
   }
   
@@ -33,6 +35,7 @@
     list-style: none;
     display: flex;
     align-items: center;
+    align-content:right;
     gap: 20px; /* Spacing between menu items */
   }
   
@@ -43,7 +46,8 @@
   .nav-links {
     text-decoration: none;
     color: #000000;
-    font-weight: 500;
+    font-weight: 400;
+    font-size:x-large;
     transition: color 0.3s ease; /* Smooth color transition on hover */
   }
   

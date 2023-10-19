@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import NavBar from '../Components/NavBar'
 import '../styles/home.css'
 import BannerImage from '../Assets/pexels-rk-jajoria-1189673.jpg';
+import ServiceProviderAccount from '../Components/ServiceProviderAccount';
 
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
           <button>
               Sign in
           </button>
-          
+          {/* <ServiceProviderAccount/> */}
         </Link>
         <Link>
         <button>
