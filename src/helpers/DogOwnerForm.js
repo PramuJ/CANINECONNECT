@@ -6,11 +6,15 @@ export default function DogOwnerForm() {
     const [phoneNumber, setPhoneNumber] = useState('');
     const [dogBreed, setDogBreed] = useState('');
     const [previousHistory, setPreviousHistory] = useState('');
+    const [address, setAddress] = useState('');
+    const [city , setCity] = useState('');
+    const [dogName, setDogName] = useState('');
+    
 
     const handleSubmit = (event) => {
         event.preventDefault();
         // Handle form submission logic here, such as sending data to an API
-        console.log('Form submitted:', { fullName, email, phoneNumber, dogBreed, previousHistory });
+        console.log('Form submitted:', { fullName, email, phoneNumber, address, dogBreed, previousHistory });
     };
 
     return (
@@ -30,14 +34,20 @@ export default function DogOwnerForm() {
                     <input type="tel" id="phoneNumber" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} required />
                 </div>
                 <div>
-                    <label htmlFor="dogBreed">Preferred Dog Breed:</label>
+                    <label htmlFor="Address">Address:</label>
+                    <input type="Address" id="Address" value={address} onChange={(e) => setAddress(e.target.value)} required />
+                </div>
+
+
+                <div>
+                    <label htmlFor="dogBreed"> Dog Breed:</label>
                     <input type="text" id="dogBreed" value={dogBreed} onChange={(e) => setDogBreed(e.target.value)} required />
                 </div>
                 <div>
                     <label htmlFor="previousHistory">Previous Dog Ownership History:</label>
                     <textarea id="previousHistory" value={previousHistory} onChange={(e) => setPreviousHistory(e.target.value)} required />
                 </div>
-                <button type="submit">Register</button>
+                <button type="submit">Submit</button>
             </form>
         </div>
     );

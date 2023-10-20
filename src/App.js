@@ -28,7 +28,7 @@ function App() {
           <Route path='/Dogs' element={<Dogs/>}/>
           <Route path='/Register' element = {<ServiceProviderAccount/>}/>
           <Route path='/Blog' element = {<Blog/>}/>
-          <Route path='/FormSelector' element = {<RegistrationFormSelector/>}/>
+          
         </Routes>
 
       <Footer/> 
