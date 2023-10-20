@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function VehicleItem(Model,Image,Owners_name, Location) {
   return (
-    <div className='DogItem'>
-    <div className='Dogimage' style={{ backgroundImage: `url(${Image})` }}>
+    <div className='VehicleItem'>
+    <div className='Vehicleimage' style={{ backgroundImage: `url(${Image})` }}>
         
     </div>
     

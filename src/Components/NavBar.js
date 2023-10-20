@@ -3,7 +3,7 @@ import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/NavBar.css'; // Import your Navbar styles if you have any
 import Logo from '../Assets/pngwing.com.png';
-import ViewListIcon from '@mui/icons-material/ViewList';
+
 
 const Navbar = () => {
 
@@ -40,6 +40,12 @@ const Navbar = () => {
             <Link to="/Vehicles" className="nav-links">
               Vehicles
             </Link>
+          </li>
+
+          <li className='nav-item'>
+            <Link to="/Blog"  className="nav-links">
+              Blog 
+              </Link>
           </li>
 
           <li className="nav-item">

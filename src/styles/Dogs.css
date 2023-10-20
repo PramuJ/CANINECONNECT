@@ -27,11 +27,19 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
+    margin: 0 auto;
   }
   
-  .DogItem h3,
+  .DogItem h3{
+    margin-left:5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  
+  
   .DogItem p {
     margin-left: 20px;
+    margin-bottom: 0;
   }
 
  /* Dog.css */

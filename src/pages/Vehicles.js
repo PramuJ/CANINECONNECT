@@ -12,14 +12,15 @@ export default function Vehicles() {
     <div>
       <div className="vehicles-search-container">
      
-    <h3>Model</h3>
-    
+      <h3>Model</h3>
+      <input  id="searchInput" type="text" placeholder='Search here...' onChange={(event) =>
+    {
+      setSearchTerm(event.target.value);
+    }}/>
 
       </div>
 
       
-
-
       <div className='VehicleList'>
       
       </div>
