@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import NavBar from './Components/NavBar'; // Import the NavBar component
 import NavBar from './Components/NavBar'; 
 import Footer from './Components/Footer';
 
@@ -20,7 +21,7 @@ function App() {
     <div>
       <Router>
         <NavBar/>
-        
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -30,12 +31,11 @@ function App() {
           <Route path='/Blog' element = {<Blog/>}/>
           <Route path='/FormSelector' element = {<RegistrationFormSelector/>}/>
         </Routes>
+      <Footer/>  
 
       <Footer/> 
 
       </Router>
     </div>
   );
-}
-
-export default App;
+  }
