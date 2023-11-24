@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import DogOwnerForm from '../helpers/DogOwnerForm';
+ import DogOwnerForm from '../helpers/DogOwnerForm';
 import VehicleOwnerForm from '../helpers/VehicleOwnersForm';
 import DogHandlerForm from '../helpers/DogHandlerForm';
+import { Link } from 'react-router-dom';
 
 export default function RegistrationFormSelector() {
     const [selectedOption, setSelectedOption] = useState(null);
@@ -12,7 +13,7 @@ export default function RegistrationFormSelector() {
 
     let selectedForm;
     if (selectedOption === 'dogOwner') {
-        selectedForm = <DogOwnerForm />;
+        selectedForm = <DogOwnerForm/>;
     } else if (selectedOption === 'vehicleOwner') {
         selectedForm = <VehicleOwnerForm />;
     } else if (selectedOption === 'dogHandler') {
@@ -24,7 +25,8 @@ export default function RegistrationFormSelector() {
             <h2>Select Registration Type:</h2>
             <select onChange={handleOptionChange}>
                 <option value="">Select...</option>
-                <option value="dogOwner">Dog Owner</option>
+                <option value="dogOwner">Dog Owner <Link to='/DogOwnersForm'>
+        </Link></option>
                 <option value="vehicleOwner">Vehicle Owner</option>
                 <option value="dogHandler">Dog Handler</option>
             </select>

@@ -44,50 +44,53 @@
 
  /* Dog.css */
 
-.dog-search-bars {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+ .dog-search-bars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .searchInput_Container {
-    display: flex;
-    align-items: center;
-    background-color: #f5f5f5;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .searchInput_Container h3 {
-    margin-right: 10px;
-    font-size: 18px;
-    color: #333;
+  margin-right: 20px;
+  font-size: 18px;
+  color: #333;
 }
 
 .searchInput_Container input[type="text"] {
-    width: 100%;
-    padding: 8px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    outline: none;
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
 }
 
 .searchInput_Container input[type="text"]::placeholder {
-    color: #999;
+  color: #999;
 }
 
 .searchInput_Container input[type="text"]:focus {
-    border: 2px solid #4CAF50;
+  border: 2px solid #4CAF50;
 }
 
 /* DogPage.css */
 
 .dogs-search-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 20px;
 }
+
 
 

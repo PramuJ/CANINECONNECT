@@ -12,7 +12,7 @@ export default function Dogs() {
     <div>
       <div className="dogs-search-container">
      
-    <h3>Breed</h3>
+    <h3>Breed : </h3>
     <input  id="searchInput" type="text" placeholder='Search here...' onChange={(event) =>
     {
       setSearchTerm(event.target.value);

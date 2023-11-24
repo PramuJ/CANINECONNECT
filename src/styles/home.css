@@ -1,6 +1,6 @@
 .home {
     width: 100%;
-    height: 90vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: left;
@@ -12,33 +12,39 @@
   }
   
   .headerContainer {
+    height: 1000px;
+    /* text-align: center;
+    margin: auto; */
     width: auto;
-    margin-left: 50px;
+    
   }
   
   .headerContainer h1 {
+    margin-top: 100px;
     justify-content: center;
     align-items: center;
     font-size: 90px;
     
     font-weight: 50;
-    color: hsl(61, 100%, 80%);
+    color: #764321;
   }
   
   .headerContainer p {
-    padding: 0;
-    font-size: 30px;
+    margin-left: 1%;
+    padding: 3;
+    font-size: 25px;
     font-weight: lighter;
-    color: hsl(61, 100%, 80%);
+    color: #764321;
   }
   
   .headerContainer button {
+    margin: 8px;
     color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     justify-content: center;
-    background-color: #121619;
+    background-color: #c66a14;
     height: 50px;
     width: 180px;
     color: white;

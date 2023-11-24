@@ -6,24 +6,38 @@ import VehicleItem from '../Components/VehicleItem'
 
 export default function Vehicles() {
 
-  const [searchTerm , setSearchTerm] = useState("");
+  const [searchTerm2 , setSearchTerm2] = useState("");
 
   return (
     <div>
-      <div className="vehicles-search-container">
+      <p>Vehicles</p>
+      {/* <div className="Vehicles-search-container">
      
-      <h3>Model</h3>
-      <input  id="searchInput" type="text" placeholder='Search here...' onChange={(event) =>
+    <h3>Model</h3>
+    <input  id="searchInput" type="text" placeholder='Search here...' onChange={(event) =>
     {
-      setSearchTerm(event.target.value);
+      setSearchTerm2(event.target.value);
     }}/>
 
       </div>
 
       
+
+
       <div className='VehicleList'>
-      
-      </div>
+      {VehicleList.filter((val) =>{
+        if(searchTerm2 == "")
+        {
+          return val;
+        }else if(val.Model.toLowerCase().includes(searchTerm2.toLowerCase()))
+        {
+          return val; 
+        }
+        }).map((vehicleItem, key ) => {
+          return <VehicleItem key={key} Owners_name={vehicleItem.Owners_name} Model = {vehicleItem.Model}  image={vehicleItem.img} location={vehicleItem.Location} />
+
+      })}
+      </div> */}
         
       </div>
   )

@@ -9,10 +9,13 @@ import About from './pages/About';
 import Vehicles from './pages/Vehicles';
 import Dogs from './pages/Dogs';
 import './App.css';
-import ServiceProviderAccount from './Components/ServiceProviderAccount';
+import DogHandlers from './pages/DogHandlers';
+
 import Blog from './pages/Blog';
 import DogItem from './Components/DogItem';
 import RegistrationFormSelector from './Components/FormSelector';
+import LandingPage from './pages/LandingPage';
+import DogOwnerForm from './helpers/DogOwnerForm';
 
 
 function App() {
@@ -23,11 +26,13 @@ function App() {
         
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/LandingPage" element={<LandingPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/Vehicles" element={<Vehicles />} />
           <Route path='/Dogs' element={<Dogs/>}/>
-          <Route path='/Register' element = {<ServiceProviderAccount/>}/>
+         <Route path='/DogOwnersForm' element={<DogOwnerForm/>}/>
           <Route path='/Blog' element = {<Blog/>}/>
+          <Route path='/DogHandlers' element = {<DogHandlers/>}/>
           
         </Routes>
 

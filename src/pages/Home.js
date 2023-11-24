@@ -1,13 +1,15 @@
 import { React, useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/home.css";
-import BannerImage from "../Assets/pexels-rk-jajoria-1189673.jpg";
+import BannerImage from "../Assets/couple5.jpeg";
 import ServiceProviderAccount from "../Components/ServiceProviderAccount";
 import RegistrationFormSelector from "../Components/FormSelector";
+import LandingPage from "./LandingPage";
+
 
 export default function Home() {
   const [isPopupVisible, setPopupVisible] = useState(false);
-
+//SignIn and Register function
   const openPopup = () => {
     setPopupVisible(true);
   };
@@ -16,13 +18,18 @@ export default function Home() {
     setPopupVisible(false);
   };
 
+  //Homepage 
   return (
-    <div className="home" style={{ backgroundImage: `url(${BannerImage})` }}>
-      <div className="headerContainer">
+    <div className="home" >
+      <div className="headerContainer" style={{
+         backgroundImage: `url(${BannerImage})` , 
+         backgroundRepeat: 'no-repeat',
+         backgroundSize: 'cover',
+         }} >
         <h1>CANINECONNECT </h1>
 
         <p>
-          Connecting Canine Companions <br /> Where Dogs Find Love and Families
+          Connecting Canine Companions Where Dogs Find Love and Families
           Find Joy.
         </p>
         <Link>
@@ -41,6 +48,10 @@ export default function Home() {
           </div>
         )}
       </div>
+      <div className="LandigPage">
+        <LandingPage/>
+      </div>
     </div>
+    
   );
 }

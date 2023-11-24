@@ -1,0 +1,35 @@
+/* BlogPage.css */
+
+
+.blog-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .blog-post {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .blog-post h2 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post p {
+    font-size: 16px;
+    color: #666666;
+  }
+  
+  /* Optional: Hover effect for blog posts */
+  .blog-post:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+  }
+  

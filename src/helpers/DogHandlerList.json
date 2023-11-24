@@ -1,0 +1,138 @@
+
+
+[
+    {"id":1,
+        "img":"https://i.pinimg.com/564x/79/9d/1f/799d1f0df4ab7bd259daf8b327ca4753.jpg",
+        "name": "Tommy",
+        "Breed": "Ridge back",
+        "Gender": "Female",
+        "Age" :4,
+        "Location": "Kaluthara"   
+    },
+    {"id":2,
+        "img": "https://i.pinimg.com/564x/71/c3/7e/71c37ed7de64d2fdb12b4c90790cd08c.jpg",
+        "name": "jimmy",
+        "Breed": "Beagle",
+        "Gender": "Male",
+        "Age" :5,
+        "Location": "Rathnapura"   
+    },
+    {"id":3,
+        "img": "https://i.pinimg.com/236x/15/36/e7/1536e7de67f8f992c595a308ec8ae363.jpg",
+        "name": "Pinky",
+        "Breed": "Labrador Retriever",
+        "Gender": "Female",
+        "Age" :8,
+        "Location": "Kegalle"   
+    },
+    {"id":4,
+    "img": "https://i.pinimg.com/564x/87/a2/d9/87a2d9d32b3708e640159843677a54e4.jpg",
+        "name": "Timmy",
+        "Breed": "Cane corso",
+        "Gender": "Female",
+        "Age" :7,
+        "Location": "Kegalle"   
+    },
+    {"id":5,
+    "img": "https://i.pinimg.com/564x/74/3f/1c/743f1c688f78bd420865b4dff5be27d8.jpg",
+        "name": "Tikky",
+        "Breed": "Pitbul",
+        "Gender": "Male",
+        "Age" :10,
+        "Location": "Colombo"   
+    },
+    {"id":6,
+    "img": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/golden-retriever-dog-breed-info.jpeg",
+        "name": "Bunny",
+        "Breed": "Beagle",
+        "Gender": "Male",
+        "Age" :11,
+        "Location": "Colombo"   
+    },
+    {"id":7,
+    "img": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/golden-retriever-dog-breed-info.jpeg",
+        "name": "Sendi",
+        "Breed": "Labrador Retriever",
+        "Gender": "Female",
+        "Age" :11,
+        "Location": "Colombo"   
+    },
+    {"id":8,
+    "img": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/golden-retriever-dog-breed-info.jpeg",
+        "name": "Blacky",
+        "Breed": "German Shepherd",
+        "Gender": "Female",
+        "Age" :8,
+        "Location": "Colombo"   
+    },
+    {"id":9,
+    "img": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/golden-retriever-dog-breed-info.jpeg",
+        "name": "Tazan",
+        "Breed": "Poodle",
+        "Gender": "Male",
+        "Age" :11,
+        "Location": "Kegalle"   
+    },
+    {"id":10,
+    "img": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/golden-retriever-dog-breed-info.jpeg",
+        "name": "Pinky",
+        "Breed": "Beagle",
+        "Gender": "Female",
+        "Age" :8,
+        "Location": "Kandy"   
+    },
+    {"id":11,
+    "img": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/golden-retriever-dog-breed-info.jpeg",
+        "name": "Tommy",
+        "Breed": "Labrador Retriever",
+        "Gender": "Female",
+        "Age" :9,
+        "Location": "Colombo"   
+    },
+    {"id":12,
+    "img": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/golden-retriever-dog-breed-info.jpeg",
+        "name": "Buddy",
+        "Breed": "German Shepherd",
+        "Gender": "Male",
+        "Age" :8,
+        "Location": "Colombo"   
+
+    },
+    {"id":13,
+    "img": "https://royvon.co.uk/wp-content/uploads/2021/10/Our-Story-About-Royvon-1.jpg",
+        "name": "Coco",
+        "Breed": "Golden Retriever",
+        "Gender": "Female",
+        "Age" :8,
+        "Location": "Kegalle"   
+
+    },
+    {"id":14,
+    "img": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/golden-retriever-dog-breed-info.jpeg",
+        "name": "Luna",
+        "Breed": "Poodle",
+        "Gender": "Female",
+        "Age" :8,
+        "Location": "Kandy"   
+    },
+    {"id":15,
+    "img": "https://royvon.co.uk/wp-content/uploads/2021/10/Our-Story-About-Royvon-1.jpg",
+        "name": "Charlie",
+        "Breed": "Beagle",
+        "Gender": "Female",
+        "Age" :8,
+        "Location": "Colombo"   
+    },
+    {"id":16,
+    "img": "https://royvon.co.uk/wp-content/uploads/2021/10/Our-Story-About-Royvon-1.jpg",
+        "name": "Milo",
+        "Breed": "Labrador Retriever",
+        "Gender": "Male",
+        "Age" :8,
+        "Location": "Kandy"   
+        
+    }
+
+
+
+]

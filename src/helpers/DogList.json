@@ -1,14 +1,16 @@
+
+
 [
     {"id":1,
-        "img":"https://i.pinimg.com/236x/3e/ba/70/3eba70b7600c637b789ba2f4917de26c.jpg",
+        "img":"https://i.pinimg.com/564x/79/9d/1f/799d1f0df4ab7bd259daf8b327ca4753.jpg",
         "name": "Tommy",
-        "Breed": "Poodle",
+        "Breed": "Ridge back",
         "Gender": "Female",
         "Age" :4,
         "Location": "Kaluthara"   
     },
     {"id":2,
-        "img": "https://i.pinimg.com/236x/8d/c8/e9/8dc8e913f2613e2ffd6af61eaa687ff4.jpg",
+        "img": "https://i.pinimg.com/564x/71/c3/7e/71c37ed7de64d2fdb12b4c90790cd08c.jpg",
         "name": "jimmy",
         "Breed": "Beagle",
         "Gender": "Male",
@@ -24,17 +26,17 @@
         "Location": "Kegalle"   
     },
     {"id":4,
-    "img": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/golden-retriever-dog-breed-info.jpeg",
+    "img": "https://i.pinimg.com/564x/87/a2/d9/87a2d9d32b3708e640159843677a54e4.jpg",
         "name": "Timmy",
-        "Breed": "Golden Retriever",
+        "Breed": "Cane corso",
         "Gender": "Female",
         "Age" :7,
         "Location": "Kegalle"   
     },
     {"id":5,
-    "img": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/golden-retriever-dog-breed-info.jpeg",
+    "img": "https://i.pinimg.com/564x/74/3f/1c/743f1c688f78bd420865b4dff5be27d8.jpg",
         "name": "Tikky",
-        "Breed": "Poodle",
+        "Breed": "Pitbul",
         "Gender": "Male",
         "Age" :10,
         "Location": "Colombo"   
