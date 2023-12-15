@@ -9,6 +9,7 @@ export default function Dogs() {
   const [searchTerm , setSearchTerm] = useState("");
 
   return (
+    
     <div>
       <div className="dogs-search-container">
      

@@ -1,20 +1,24 @@
-import { React, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/home.css";
 import BannerImage from "../Assets/pexels-rk-jajoria-1189673.jpg";
-import ServiceProviderAccount from "../Components/ServiceProviderAccount";
-import RegistrationFormSelector from "../Components/FormSelector";
+// import ServiceProviderAccount from "../Components/ServiceProviderAccount";
+// import RegistrationFormSelector from "../Components/FormSelector";
+// import DogRegistrationForm from "./Forms/DogRegistrationForm";
+
+
+ 
 
 export default function Home() {
-  const [isPopupVisible, setPopupVisible] = useState(false);
+  // const [isPopupVisible, setPopupVisible] = useState(false);
 
-  const openPopup = () => {
-    setPopupVisible(true);
-  };
+  // const openPopup = () => {
+  //   setPopupVisible(true);
+  // };
 
-  const closePopup = () => {
-    setPopupVisible(false);
-  };
+  // const closePopup = () => {
+  //   setPopupVisible(false);
+  // };
 
   return (
     <div className="home" style={{ backgroundImage: `url(${BannerImage})` }}>
@@ -29,8 +33,24 @@ export default function Home() {
           <button>Sign in</button>
         </Link>
 
-        <button onClick={openPopup}>Register</button>
-        {isPopupVisible && (
+        <Link to="/RegistrationSelection">
+          <button>Register</button>
+        </Link>
+
+        
+        {/* <nav>
+          <ul>
+            
+            <li>
+              <Link to="/DogRegistrationForm">Registration</Link>
+            </li>
+          </ul>
+        </nav> */}
+
+        
+
+        {/* <button onClick={openPopup}>Register</button>
+          isPopupVisible && (
           <div className="popup">
             <div className="popup-content">
               <span className="close" onClick={closePopup}>
@@ -38,8 +58,8 @@ export default function Home() {
               </span>
               <RegistrationFormSelector />
             </div>
-          </div>
-        )}
+          </div> */}
+        )
       </div>
     </div>
   );
