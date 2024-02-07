@@ -10,33 +10,40 @@ export default function Dogs() {
 
   return (
     <div>
-      <div className="dogs-search-container">
-     
-    <h3>Breed</h3>
-    <input  id="searchInput" type="text" placeholder='Search here...' onChange={(event) =>
-    {
-      setSearchTerm(event.target.value);
-    }}/>
+    
+        <div className='dog-search-bars'>
+          <div className='searchInput_Container'>
+                <h3>Breed</h3>
+            
+                
+                      <input  id="searchInput" type="text" placeholder='Search here...' onChange={(event) =>
+                  {
+                    setSearchTerm(event.target.value);
+                  }}/>
+                 
+          </div>
+          
+        </div>
+        <div className='DogList'>
+        {DogList.filter((val) =>{
+          if(searchTerm == "")
+          {
+            return val;
+          }else if(val.Breed.toLowerCase().includes(searchTerm.toLowerCase()))
+          {
+            return val; 
+          }
+          }).map((dogItem, key ) => {
+            return <DogItem key={key} name={dogItem.name} Age = {dogItem.Age} breed={dogItem.Breed} image={dogItem.img} location={dogItem.Location} gender={dogItem.Gender} />
 
+        })}
       </div>
+        
 
       
 
-
-      <div className='DogList'>
-      {DogList.filter((val) =>{
-        if(searchTerm == "")
-        {
-          return val;
-        }else if(val.Breed.toLowerCase().includes(searchTerm.toLowerCase()))
-        {
-          return val; 
-        }
-        }).map((dogItem, key ) => {
-          return <DogItem key={key} name={dogItem.name} Age = {dogItem.Age} breed={dogItem.Breed} image={dogItem.img} location={dogItem.Location} gender={dogItem.Gender} />
-
-      })}
-      </div>
+  
+      
         
       </div>
   )

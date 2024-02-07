@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import "../styles/Forms.css"
 
-function RegistrationForm() {
+
+function VehicleRegistrationForm() {
     
   const [userDetails, setUserDetails] = useState({
     username: '',
@@ -33,14 +35,14 @@ function RegistrationForm() {
 
   return (
     <div>
-      <h2>Registration Form</h2>
+      <h2>Vehicle Registration Form</h2>
       <form onSubmit={handleSubmit}>
         <h3>User Details</h3>
         <input
           type="text"
           placeholder="Username"
           value={userDetails.username}
-          onChange={(e) => setUserDetails({ ...userDetails, username: e.target.value })}
+          onChange={(e) =>  setUserDetails({ ...userDetails, username: e.target.value })}
         />
         <input
           type="email"
@@ -48,18 +50,18 @@ function RegistrationForm() {
           value={userDetails.email}
           onChange={(e) => setUserDetails({ ...userDetails, email: e.target.value })}
         />
-        <input type="file"   accept="image/*" onChange={handleUserImageChange} />
+        <input type="file" accept="image/*" onChange={handleUserImageChange} />
 
-        <h3>Dog Details</h3>
+        <h3>Vehicle Details</h3>
         <input
           type="text"
-          placeholder="Dog's Name"
+          placeholder="Vehicle's Name"
           value={dogDetails.dogName}
           onChange={(e) => setDogDetails({ ...dogDetails, dogName: e.target.value })}
         />
         <input
           type="text"
-          placeholder="Breed"
+          placeholder="Model"
           value={dogDetails.breed}
           onChange={(e) => setDogDetails({ ...dogDetails, breed: e.target.value })}
         />
@@ -71,4 +73,4 @@ function RegistrationForm() {
   );
 }
 
-export default RegistrationForm;
+export default VehicleRegistrationForm;

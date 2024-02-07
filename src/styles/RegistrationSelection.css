@@ -1,0 +1,64 @@
+/* Styles for the Registration Selection Section */
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Style for the card container */
+.card-margin {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+/* Style for each card */
+.card {
+  width: 200px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Style for card body */
+.card-body {
+  padding: 15px;
+}
+
+/* Style for card title */
+.card-title {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Style for card text */
+.card-text {
+  color: #555;
+  font-size: 12px;
+}
+
+/* Style for the button */
+.btn-primary {
+  display:  block;
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  color: #fff;
+  background-color: #dbb13d;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #c5ce47;
+}

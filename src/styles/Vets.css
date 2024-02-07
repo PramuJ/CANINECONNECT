@@ -1,17 +1,17 @@
-.DogItem {
+.VetItem {
     border-radius: 15px;
     width: 300px;
     height: 350px;
     margin: 20px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   }
-  .DogItem:hover {
+  .VetItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in;
     cursor: pointer;
   }
   
-  .DogItem div {
+  .VetItem div {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
@@ -21,7 +21,7 @@
     background-size: cover;
   }
 
-  .DogList {
+  .VetList {
     width: 70vw;
     height: auto;
     display: grid;
@@ -30,21 +30,21 @@
     margin: 0 auto;
   }
   
-  .DogItem h3{
+  .VetItem h3{
     margin-left:5%;
     margin-top: 3%;
     margin-bottom: 3%;
   }
   
   
-  .DogItem p {
+  .VetItem p {
     margin-left: 20px;
     margin-bottom: 0;
   }
 
  /* Dog.css */
 
-.dog-search-bars {
+.vet-search-bars {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,10 +85,9 @@
 
 /* DogPage.css */
 
-.dogs-search-container {
+.vets-search-container {
   display: flex;
   margin-bottom: 20px;
-  align-items: center;
 }
 
 

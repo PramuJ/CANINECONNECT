@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import "../styles/Forms.css"
 
-function RegistrationForm() {
+
+function DogRegistrationForm() {
     
   const [userDetails, setUserDetails] = useState({
     username: '',
@@ -33,7 +35,7 @@ function RegistrationForm() {
 
   return (
     <div>
-      <h2>Registration Form</h2>
+      <h2>Dog Owner Registration   Form</h2>
       <form onSubmit={handleSubmit}>
         <h3>User Details</h3>
         <input
@@ -48,7 +50,7 @@ function RegistrationForm() {
           value={userDetails.email}
           onChange={(e) => setUserDetails({ ...userDetails, email: e.target.value })}
         />
-        <input type="file"   accept="image/*" onChange={handleUserImageChange} />
+        <input type="file" accept="image/*" onChange={handleUserImageChange} />
 
         <h3>Dog Details</h3>
         <input
@@ -71,4 +73,4 @@ function RegistrationForm() {
   );
 }
 
-export default RegistrationForm;
+export default DogRegistrationForm;

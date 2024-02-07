@@ -40,12 +40,16 @@ const LandingPage = () => {
                 <img src={articlesImage} alt="Dogs" className="catalog-image" />
                 <h2>Articles</h2>
                 <p>Explore articles about dog breeding.</p>
-                <Link to="/articles">
+
+                
+
+                <Link to="/blog">
+
                     <button className="see-more">See More</button>
                 </Link>
             </div>
         </div>
-    );
-};
-
+    )
+}
 export default LandingPage;
+

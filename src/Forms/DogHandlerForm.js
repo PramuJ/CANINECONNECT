@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import "../styles/Forms.css"
 
-function RegistrationForm() {
+
+function HandlerRegistrationForm() {
     
   const [userDetails, setUserDetails] = useState({
     username: '',
@@ -33,12 +35,12 @@ function RegistrationForm() {
 
   return (
     <div>
-      <h2>Registration Form</h2>
+      <h2>Dog Handler Registration Form </h2>
       <form onSubmit={handleSubmit}>
-        <h3>User Details</h3>
+        
         <input
           type="text"
-          placeholder="Username"
+          placeholder="Handler Name"
           value={userDetails.username}
           onChange={(e) => setUserDetails({ ...userDetails, username: e.target.value })}
         />
@@ -48,22 +50,38 @@ function RegistrationForm() {
           value={userDetails.email}
           onChange={(e) => setUserDetails({ ...userDetails, email: e.target.value })}
         />
-        <input type="file"   accept="image/*" onChange={handleUserImageChange} />
 
-        <h3>Dog Details</h3>
         <input
           type="text"
-          placeholder="Dog's Name"
+          placeholder="Gender"
+          value={dogDetails.dogName}
+          onChange={(e) => setDogDetails({ ...dogDetails, dogName: e.target.value })}
+        />  
+        <input
+          type="text"
+          placeholder="Tel No"
           value={dogDetails.dogName}
           onChange={(e) => setDogDetails({ ...dogDetails, dogName: e.target.value })}
         />
+
         <input
           type="text"
-          placeholder="Breed"
-          value={dogDetails.breed}
-          onChange={(e) => setDogDetails({ ...dogDetails, breed: e.target.value })}
+          placeholder="Address"
+          value={dogDetails.dogName}
+          onChange={(e) => setDogDetails({ ...dogDetails, dogName: e.target.value })}
         />
-        <input type="file" accept="image/*" onChange={handleDogImageChange} />
+
+        <div class="form-group">
+            <h6>Experiences</h6>
+            <textarea class="form-control"   id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <h6>Upload Your Certificates</h6>
+        <input type="file" accept="image/*" onChange={handleUserImageChange} />
+
+        <h6>Upload Your Work Experiences</h6>
+        <input type="file" 
+        accept="image/*" onChange={handleDogImageChange} />
 
         <button type="submit">Register</button>
       </form>
@@ -71,4 +89,18 @@ function RegistrationForm() {
   );
 }
 
-export default RegistrationForm;
+
+// const collectData = async (e) =>{
+//   e.preventDefault();
+//   let result = await fetch("http://localhost:8000/",{
+//     method : 'post',
+//     body: JSON.stringify({,,,}),
+//     headers:{
+//       'Content-Type':'application/json'
+//     },
+//   });
+//   result = await result.json;
+//   localStorage.setItem("user",JSON,stringyfy(result));
+// }
+
+export default HandlerRegistrationForm;

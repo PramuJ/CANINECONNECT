@@ -16,3 +16,4 @@ export default function DogItem({ name,image,breed,Age,location,gender}) {
     </div>
   )
 }
+
