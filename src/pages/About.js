@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './About.css'; // Import your About Us styles if you have any
+import '../styles/About.css'; // Import your About Us styles if you have any
 
 const AboutUs = () => {
   return (

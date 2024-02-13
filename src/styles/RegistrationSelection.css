@@ -41,11 +41,12 @@ h2 {
 /* Style for card text */
 .card-text {
   color: #555;
+  font-size: 12px;
 }
 
 /* Style for the button */
 .btn-primary {
-  display: block;
+  display:  block;
   width: 100%;
   padding: 8px;
   margin-top: 10px;
@@ -60,4 +61,8 @@ h2 {
 
 .btn-primary:hover {
   background-color: #c5ce47;
+}
+
+.bodyOfRegistrationSelector{
+  margin-bottom: 200px;
 }

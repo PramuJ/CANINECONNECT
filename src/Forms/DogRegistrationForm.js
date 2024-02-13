@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import "../styles/Forms.css"
 
-
 function RegistrationForm() {
     
   const [userDetails, setUserDetails] = useState({
@@ -50,7 +49,7 @@ function RegistrationForm() {
           value={userDetails.email}
           onChange={(e) => setUserDetails({ ...userDetails, email: e.target.value })}
         />
-        <input type="file" accept="image/*" onChange={handleUserImageChange} />
+        <input type="file"   accept="image/*" onChange={handleUserImageChange} />
 
         <h3>Dog Details</h3>
         <input

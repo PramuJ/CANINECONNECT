@@ -1,0 +1,93 @@
+.HandlerItem {
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+  .HandlerItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  .HandlerItem div {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .HandlerList {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    margin: 0 auto;
+  }
+  
+  .HandlerItem h3{
+    margin-left:5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  
+  
+  .HandlerItem p {
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+
+ /* Dog.css */
+
+.handler-search-bars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.searchInput_Container {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.searchInput_Container h3 {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.searchInput_Container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.searchInput_Container input[type="text"]::placeholder {
+    color: #999;
+}
+
+.searchInput_Container input[type="text"]:focus {
+    border: 2px solid #4CAF50;
+}
+
+/* DogPage.css */
+
+.handlers-search-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+

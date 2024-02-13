@@ -1,6 +1,6 @@
 [
     {"id":1,
-        "img":"https://i.pinimg.com/236x/3e/ba/70/3eba70b7600c637b789ba2f4917de26c.jpg",
+        "img":"https://static.theprint.in/wp-content/uploads/2022/11/Feature-Image-53.png",
         "name": "Tommy",
         "Breed": "Poodle",
         "Gender": "Female",
@@ -8,7 +8,7 @@
         "Location": "Kaluthara"   
     },
     {"id":2,
-        "img": "https://i.pinimg.com/236x/8d/c8/e9/8dc8e913f2613e2ffd6af61eaa687ff4.jpg",
+        "img": "https://patmypets.b-cdn.net/wp-content/uploads/2022/01/labrador.jpg",
         "name": "jimmy",
         "Breed": "Beagle",
         "Gender": "Male",
@@ -16,7 +16,7 @@
         "Location": "Rathnapura"   
     },
     {"id":3,
-        "img": "https://i.pinimg.com/236x/15/36/e7/1536e7de67f8f992c595a308ec8ae363.jpg",
+        "img": "https://petperennials.com/cdn/shop/articles/Blog_Photo_Feb_16_Lab_Article_800x.png?v=1613492250",
         "name": "Pinky",
         "Breed": "Labrador Retriever",
         "Gender": "Female",
@@ -24,7 +24,7 @@
         "Location": "Kegalle"   
     },
     {"id":4,
-    "img": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/golden-retriever-dog-breed-info.jpeg",
+    "img": "https://cdn.shopify.com/s/files/1/0175/1403/7302/files/Yellow_Lab_png_Blog_Pic_1_480x480.png?v=1613490418",
         "name": "Timmy",
         "Breed": "Golden Retriever",
         "Gender": "Female",
@@ -32,7 +32,7 @@
         "Location": "Kegalle"   
     },
     {"id":5,
-    "img": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/golden-retriever-dog-breed-info.jpeg",
+    "img": "https://cdn.shopify.com/s/files/1/0175/1403/7302/files/Black_lab_pic_4_blog_480x480.png?v=1613491027",
         "name": "Tikky",
         "Breed": "Poodle",
         "Gender": "Male",
@@ -40,7 +40,7 @@
         "Location": "Colombo"   
     },
     {"id":6,
-    "img": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/golden-retriever-dog-breed-info.jpeg",
+    "img": "https://cdn.shopify.com/s/files/1/0175/1403/7302/files/Blog_pic_7_yellow_lab_sitting_480x480.png?v=1613491250",
         "name": "Bunny",
         "Breed": "Beagle",
         "Gender": "Male",
@@ -48,7 +48,7 @@
         "Location": "Colombo"   
     },
     {"id":7,
-    "img": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/golden-retriever-dog-breed-info.jpeg",
+    "img": "https://cdn.shopify.com/s/files/1/0175/1403/7302/files/American_lab_-_blog_480x480.png?v=1613491379",
         "name": "Sendi",
         "Breed": "Labrador Retriever",
         "Gender": "Female",

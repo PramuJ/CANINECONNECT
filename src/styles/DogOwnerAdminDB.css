@@ -1,0 +1,47 @@
+.dog-owners-page {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+.action-buttons {
+  margin-bottom: 20px;
+}
+
+.action-buttons button {
+  background-color: #cecc62;
+  border: none;
+  color: white;
+  width: 100px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.action-buttons button:hover {
+  background-color: #45a049;
+}
+
+.action-buttons button:first-child {
+  margin-right: 10px;
+}

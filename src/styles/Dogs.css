@@ -46,7 +46,7 @@
 
 .dog-search-bars {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -88,6 +88,7 @@
 .dogs-search-container {
   display: flex;
   margin-bottom: 20px;
+  align-items: center;
 }
 
 

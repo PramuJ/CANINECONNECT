@@ -68,3 +68,66 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+[
+    {
+        "id": 1,
+        "img": "https://as1.ftcdn.net/v2/jpg/01/63/00/16/1000_F_163001659_1fST0jiCDk04HWUDEA2A8fDv0ZhPSqvK.jpg",
+        "name": "John",
+        "Location": "Colombo",
+        "Gender": "Male",
+        "Age": "30"
+    },
+    {
+        "id": 2,
+        "img": "https://as1.ftcdn.net/v2/jpg/01/07/40/56/1000_F_107405684_9PUlplcGwfj0sa9OzDM2loMq78dvVcBU.jpg",
+        "name": "Alice",
+        "Location": "Kandy",
+        "Gender": "Female",
+        "Age": "28"
+    },
+    {
+        "id": 3,
+        "img": "https://as1.ftcdn.net/v2/jpg/02/89/25/40/1000_F_289254080_oe0MTjCSoOex86NY7C7CFR2exvYmLmD0.jpg",
+        "name": "Mike",
+        "Location": "Galle",
+        "Gender": "Male",
+        "Age": "35"
+    },
+    {
+        "id": 4,
+        "img": "https://as1.ftcdn.net/v2/jpg/01/07/40/56/1000_F_107405684_9PUlplcGwfj0sa9OzDM2loMq78dvVcBU.jpg",
+        "name": "Emma",
+        "Location": "Negombo",
+        "Gender": "Female",
+        "Age": "26"
+    },
+    {
+        "id": 5,
+        "img": "https://as1.ftcdn.net/v2/jpg/01/63/00/16/1000_F_163001659_1fST0jiCDk04HWUDEA2A8fDv0ZhPSqvK.jpg",
+        "name": "Robert",
+        "Location": "Matara",
+        "Gender": "Male",
+        "Age": "32"
+    },
+    {
+        "id": 6,
+        "img": "https://as1.ftcdn.net/v2/jpg/01/07/40/56/1000_F_107405684_9PUlplcGwfj0sa9OzDM2loMq78dvVcBU.jpg",
+        "name": "Sophia",
+        "Location": "Anuradhapura",
+        "Gender": "Female",
+        "Age": "29"
+    },
+    {
+        "id": 7,
+        "img": "https://as1.ftcdn.net/v2/jpg/02/89/25/40/1000_F_289254080_oe0MTjCSoOex86NY7C7CFR2exvYmLmD0.jpg",
+        "name": "David",
+        "Location": "Jaffna",
+        "Gender": "Male",
+        "Age": "34"
+    }
+]

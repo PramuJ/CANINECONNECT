@@ -42,7 +42,7 @@ function VehicleRegistrationForm() {
           type="text"
           placeholder="Username"
           value={userDetails.username}
-          onChange={(e) => setUserDetails({ ...userDetails, username: e.target.value })}
+          onChange={(e) =>  setUserDetails({ ...userDetails, username: e.target.value })}
         />
         <input
           type="email"
@@ -52,16 +52,16 @@ function VehicleRegistrationForm() {
         />
         <input type="file" accept="image/*" onChange={handleUserImageChange} />
 
-        <h3>Dog Details</h3>
+        <h3>Vehicle Details</h3>
         <input
           type="text"
-          placeholder="Dog's Name"
+          placeholder="Vehicle's Name"
           value={dogDetails.dogName}
           onChange={(e) => setDogDetails({ ...dogDetails, dogName: e.target.value })}
         />
         <input
           type="text"
-          placeholder="Breed"
+          placeholder="Model"
           value={dogDetails.breed}
           onChange={(e) => setDogDetails({ ...dogDetails, breed: e.target.value })}
         />

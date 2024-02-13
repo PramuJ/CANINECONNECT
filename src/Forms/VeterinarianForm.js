@@ -1,30 +1,28 @@
 import React, { useState } from 'react';
 import "../styles/Forms.css"
 
-
 function VetRegistrationForm() {
     
-  const [userDetails, setUserDetails] = useState({
-    username: '',
+  const [vetDetails, setVetDetails] = useState({
+    name: '',
     email: '',
+    gender: '',
+    telNo: '',
+    address: '',
+    experiences: ''
   });
 
-  const [dogDetails, setDogDetails] = useState({
-    dogName: '',
-    breed: '',
-  });
+  const [certImage, setCertImage] = useState(null);
+  const [workImage, setWorkImage] = useState(null);
 
-  const [userImage, setUserImage] = useState(null);
-  const [dogImage, setDogImage] = useState(null);
-
-  const handleUserImageChange = (e) => {
+  const handleCertImageChange = (e) => {
     const file = e.target.files[0];
-    setUserImage(file);
+    setCertImage(file);
   };
 
-  const handleDogImageChange = (e) => {
+  const handleWorkImageChange = (e) => {
     const file = e.target.files[0];
-    setDogImage(file);
+    setWorkImage(file);
   };
 
   const handleSubmit = (e) => {
@@ -37,35 +35,50 @@ function VetRegistrationForm() {
     <div>
       <h2>Veterinarian Registration Form</h2>
       <form onSubmit={handleSubmit}>
-        <h3>User Details</h3>
+        
         <input
           type="text"
-          placeholder="Username"
-          value={userDetails.username}
-          onChange={(e) => setUserDetails({ ...userDetails, username: e.target.value })}
+          placeholder="Name"
+          value={vetDetails.name}
+          onChange={(e) => setVetDetails({ ...vetDetails, name: e.target.value })}
         />
         <input
           type="email"
           placeholder="Email"
-          value={userDetails.email}
-          onChange={(e) => setUserDetails({ ...userDetails, email: e.target.value })}
+          value={vetDetails.email}
+          onChange={(e) => setVetDetails({ ...vetDetails, email: e.target.value })}
         />
-        <input type="file" accept="image/*" onChange={handleUserImageChange} />
+        <input
+          type="text"
+          placeholder="Gender"
+          value={vetDetails.gender}
+          onChange={(e) => setVetDetails({ ...vetDetails, gender: e.target.value })}
+        />  
+        <input
+          type="text"
+          placeholder="Tel No"
+          value={vetDetails.telNo}
+          onChange={(e) => setVetDetails({ ...vetDetails, telNo: e.target.value })}
+        />
+        <input
+          type="text"
+          placeholder="Address"
+          value={vetDetails.address}
+          onChange={(e) => setVetDetails({ ...vetDetails, address: e.target.value })}
+        />
+        <div className="form-group">
+            <h6>Experiences</h6>
+            <textarea className="form-control" id="experiences" rows="3"
+              value={vetDetails.experiences}
+              onChange={(e) => setVetDetails({ ...vetDetails, experiences: e.target.value })}
+            ></textarea>
+        </div>
 
-        <h3>Dog Details</h3>
-        <input
-          type="text"
-          placeholder="Dog's Name"
-          value={dogDetails.dogName}
-          onChange={(e) => setDogDetails({ ...dogDetails, dogName: e.target.value })}
-        />
-        <input
-          type="text"
-          placeholder="Breed"
-          value={dogDetails.breed}
-          onChange={(e) => setDogDetails({ ...dogDetails, breed: e.target.value })}
-        />
-        <input type="file" accept="image/*" onChange={handleDogImageChange} />
+        <h6>Upload Certificates</h6>
+        <input type="file" accept="image/*" onChange={handleCertImageChange} />
+
+        <h6>Upload Work Experiences</h6>
+        <input type="file" accept="image/*" onChange={handleWorkImageChange} />
 
         <button type="submit">Register</button>
       </form>
@@ -74,3 +87,4 @@ function VetRegistrationForm() {
 }
 
 export default VetRegistrationForm;
+

@@ -1,0 +1,61 @@
+[
+
+    {"id":1,
+        "img":"https://media.istockphoto.com/id/175213772/photo/dog.jpg?s=1024x1024&w=is&k=20&c=BFAurzaKFvYTWyGeK0S3qsS8zC579Yj3kpAQVap-bgA=",
+        "name": "Sadun",
+        "Location": "Kaluthara",
+        "Gender": "Male",
+        "Age": "30"
+    },
+    {"id":2,
+        "img":"https://media.istockphoto.com/id/1132258325/photo/german-shepherd-dog-in-the-park.jpg?s=1024x1024&w=is&k=20&c=u-hDA45HdCHa6cnTl3-9eeSAoPTwQrRsWYn92MW6o1A=",
+        "name": "Prasanna",
+        "Location": "Beruwela",
+        "Gender": "Male",
+        "Age": "28"
+    },
+    {"id":3,
+        "img":"https://media.istockphoto.com/id/183261026/photo/man-and-german-shepherd.jpg?s=1024x1024&w=is&k=20&c=nRMWBL-z8v-XmOHR3a5YHtyqDR1t8gIk3VS2gqldW_8=",
+        "name": "Chamara",
+        "Location": "Gampaha",
+        "Gender": "Male",
+        "Age": "32"
+    },
+    {"id":4,
+    "img":"https://media.istockphoto.com/id/183261026/photo/man-and-german-shepherd.jpg?s=1024x1024&w=is&k=20&c=nRMWBL-z8v-XmOHR3a5YHtyqDR1t8gIk3VS2gqldW_8=",
+    "name": "Bryan",
+    "Location": "Anuradhapura",
+    "Gender": "Male",
+    "Age": "35"
+},
+{"id":5,
+"img":"https://media.istockphoto.com/id/175213772/photo/dog.jpg?s=1024x1024&w=is&k=20&c=BFAurzaKFvYTWyGeK0S3qsS8zC579Yj3kpAQVap-bgA=",
+"name": "Sadun",
+"Location": "KKandy",
+"Gender": "Male",
+"Age": "23"
+},
+{"id":6,
+"img":"https://media.istockphoto.com/id/1132258325/photo/german-shepherd-dog-in-the-park.jpg?s=1024x1024&w=is&k=20&c=u-hDA45HdCHa6cnTl3-9eeSAoPTwQrRsWYn92MW6o1A=",
+"name": "Prabath",
+"Location": "Negambo",
+"Gender": "Male",
+"Age": "25"
+},
+{"id":7,
+"img":"https://media.istockphoto.com/id/175213772/photo/dog.jpg?s=1024x1024&w=is&k=20&c=BFAurzaKFvYTWyGeK0S3qsS8zC579Yj3kpAQVap-bgA=",
+"name": "Pasan",
+"Location": "Kandy",
+"Gender": "Male",
+"Age": "25"
+}
+    
+
+
+
+
+
+
+
+
+]
